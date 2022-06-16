@@ -1,8 +1,87 @@
 body {
     margin: 0;
+    font-family: "Manrope", sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+#logo {
+    height: 45px;
+    margin-right: 7px;
+}
+
+nav {
+    padding: 15px 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+#logo-name {
+    font-size: 18px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    flex-basis: 100px;
+}
+
+nav ul, nav ul li {
+    display: inline;
+    flex-basis: 30%;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    color: #33354d;
+    font-weight: 600;
+    padding: 0 0.535rem;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #6366f1;
+}
+
+.active {
+    color: #6366f1 !important;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.btn-danger {
+
+}
+
+.btn-primary {
+    background-color: #6366f1;
+}
+
+.btn-warning {
+
+}
+
+.btn-dark {
+
+}
+
+.flex-button {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.cart-icon {
+    font-size: 20px;
+    margin-right: 7px;
 }
