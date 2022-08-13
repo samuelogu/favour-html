@@ -85,3 +85,59 @@ nav a:hover {
     font-size: 20px;
     margin-right: 7px;
 }
+
+aside {
+    width: 10%;
+    height: 100vh;
+    background-color: blue;
+}
+
+main {
+    background-color: black;
+    height: 100vh;
+    width: 90%;
+}
+
+.full-width {
+    display: flex;
+}
+
+.advert {
+    width: 100%;
+    height: 250px;
+    background-color: green;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.item {
+    background-color: yellow;
+    height: 300px;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+.player {
+    background-color: bisque;
+    height: 200px;
+    width: 100%;
+}
+
+.detail {
+    display: flex;
+}
+
+.icon {
+    flex-basis: 50px;
+    background-color: aquamarine;
+    height: 100px;
+}
+
+.info {
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 100%;
+}
